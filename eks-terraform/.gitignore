@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Variables sensibles
+*.tfvars
+*.tfvars.json
+
+# AWS / kube
+.aws/
+.kube/
+
+# Keys
+*.pem
+*.key
+
+# Logs
+crash.log
+crash.*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
